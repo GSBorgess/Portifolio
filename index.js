@@ -27,6 +27,7 @@ const project1 = document.querySelector('.project1')
 const project2 = document.querySelector('.project2')
 const project3 = document.querySelector('.project3')
 const project4 = document.querySelector('.project4')
+const project5 = document.querySelector('.project5')
 
 // Modal 1
 function action1() {
@@ -70,6 +71,17 @@ function fechar4() {
   let project4 = document.querySelector('.project4')
 
   project4.style.display = 'none';
+}
+
+// Modal 5
+function action5() {
+  project5.style.display = 'block'
+}
+
+function fechar5() {
+  let project5 = document.querySelector('.project5')
+
+  project5.style.display = 'none';
 }
 
 // Play music functionality
